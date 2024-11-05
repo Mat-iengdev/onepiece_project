@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'myfonte';
+    src: url(../font/ONE\ PIECE.ttf);
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url(../font/ONE_PIECE.otf);
+}
+
+h2 {
+    font-family: 'myfont';
+    font-size: 3.6rem;
+    color: white;
+    text-shadow: 5px 5px black;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+main p {
+    color: white;
+    margin: 50px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(../img/wallpaper.jpeg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.imgHeader {
+    top: 5%;
+    left: 5%;
+    z-index: 3000;
+    width: 10%;
+    transform: rotate(-20deg);
+}
+
+header img {
+    width: 100%;
+}
+
+ul {
+    top: 5%;
+    right: 5%;
+    z-index: 3000;
+    list-style-type: none;
+    background-color: white;
+}
+
+header li {
+    width: 40px;
+    height: 3px;
+    border-radius: 20px;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#red {
+    background-color: red;
+    margin: 9px 0px;
+}
+
+#blue {
+    background-color: blue;
+}
+
+/* MAIN */
+
+#bgBlack {
+    background-color: black;
+}
+
+main>h2 {
+    padding: 10px 0px;
+}
+
+section article {
+    padding: 50px 0px;
+}
+
+/* PREMIERE SECTION */
+
+.firstSection {
+    background-color: #d92f2e;
+    display: flex;
+    justify-content: flex-end;
+    height: 60vh;
+}
+
+.firstSection article {
+    width: 40%;
+    margin: 20px 30px;
+}
+
+.Luffy {    
+    top: -90px;
+    left: 30px;
+    z-index: 5000;
+}
+
+.Luffy img {
+    width: 540px;
+}
+
+.bgLuffy {
+    background-image: url(../img/luffySkul.png);
+    width: 100%;
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    right: 110px;
+    top: 20px;
+    z-index: 3000;
+    opacity: 0.1;
+}
+
+/* DEUXIEME SECTION */
+
+.secondSection {
+    background-color: #73cd8e;
+    display: flex;
+    justify-content: flex-start;
+    height: 60vh;
+}
+
+.secondSection article {
+    width: 40%;
+    margin: 20px 30px;
+}
+
+.Zorro {
+    top: -150px;
+    right: 130px;
+    z-index: 5000;
+}
+
+.Zorro img {
+    width: 400px;
+}
+
+.bgZorro {
+    background-image: url(../img/zorroSkull.png);
+    width: 100%;
+    height: 60vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+    z-index: 3000;
+    opacity: 0.1;
+}
+/* TROISIEME SECTION  */
+
+.thirdSection {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    height: 60vh;
+}
+
+.thirdSection article {
+    width: 40%;
+    margin: 20px 30px;
+}
+
+.Sanji {
+    z-index: 5000;
+    top: -30px;
+    left: 30px;
+}
+
+.Sanji img {
+    width: 40%;
+}
+
+.bgSanji {
+    background-image: url(../img/sanjiSkull.png);
+    width: 100%;
+    height: 55vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    right: 90px;
+    top: 20px;
+    z-index: 3000;
+    opacity: 0.1;
+}
+
+/* QUATRIEME SECTION  */
+
+.fourthSection {
+    background-color: #5282fe;
+    display: flex;
+    justify-content: flex-start;
+    height: 60vh;
+}
+
+.fourthSection article {
+    width: 40%;
+    margin: 20px 30px;
+}
+
+.Nami {
+    z-index: 5000;
+    top: -120px;
+    right: 50px;
+}
+
+.Nami img {
+    width: 300px;
+}
+
+.bgNami {
+    background-image: url(../img/namiSkull.png);
+    width: 400px;
+    height: 75vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -50px;
+    left: 85px;
+    z-index: 3000;
+    opacity: 0.1;
+}
+/* 
+FOOTER */
+
+footer {
+    background-image: url(../img/onePiece.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.5;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+footer img {
+    width: 100px;
+}
